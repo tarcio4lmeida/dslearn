@@ -43,6 +43,9 @@ public class Role implements Serializable {
 		this.authority = authority;
 	}
 
+	public boolean hasAuthority(String authority) {
+		return this.authority.equals(authority);
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
