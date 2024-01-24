@@ -64,6 +64,7 @@
 			<artifactId>spring-security-oauth2-autoconfigure</artifactId>
 		</dependency>
 
+
 	</dependencies>
 
 	<build>
